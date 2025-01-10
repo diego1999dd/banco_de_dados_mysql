@@ -43,7 +43,7 @@ SELECT * FROM tb_pizzas;
 
 SELECT nome, CONCAT('R$ ', FORMAT(preco, 2, 'pt_BR')) AS Preço FROM tb_pizzas;
 
-SELECT * FROM tb_pizzas WHERE preco < 45.00;
+SELECT * FROM tb_pizzas WHERE preco > 45.00;
 
 SELECT * FROM tb_pizzas WHERE preco BETWEEN 50.00 AND 100.00;
 
